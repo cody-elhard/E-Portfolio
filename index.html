@@ -2,9 +2,274 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title> E-Portfolio </title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   </head>
   <body>
-    Hola Github Pages
+    <div class="fixed-top">
+      <div class="row">
+        <div class="col-2"> </div>
+        <div class="col-8">
+          <nav class="navbar navbar-expand-lg navbar-light bg-white pt-3">
+            <a class="navbar-brand" href="#">
+              <div style="height: 25px; width: 300px;">
+                <%= render partial: 'shared/logos/harvest_profit_black' %>
+              </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="navbar-nav mr-auto"> </div>
+              <form class="form-inline">
+                <a class="nav-link" href="#"> Blog </a>
+                <a class="nav-link" href="#"> Pricing </a>
+                <a class="nav-link" href="#"> Sign In </a>
+                <a class="nav-link" href="#"> Try it FREE </a>
+              </form>
+            </div>
+          </nav>
+        </div>
+        <div class="col-2"> </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="py-5"> </div>
+      <div class="py-5"> </div>
+      <div class="row">
+        <div class="col-2"> </div>
+        <div class="col-8">
+          <h1 class="header">
+            Helping your farm thrive in an ever-volatile farm economy.
+          </h1>
+        </div>
+        <div class="col-2"> </div>
+      </div>
+
+      <div class="row">
+        <div class="col-2"> </div>
+        <div class="col-8">
+          <div class="row">
+            <div class="col-12">
+              <div>
+                <p class="lead mb-3 mx-1 body-text">
+                  We can't iterate enough about how it is easy to use.
+                </p>
+                <p class="lead mx-1 body-text">
+                  We want our content to be as simple as possible for our targeted users.
+                  That's you! Which is why we value your input and your comments will
+                  lead to changes in our application design.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div>
+                <h1 class="secondary-header"> Start Farming Smarter. </h1>
+              </div>
+              <div>
+                <p class="lead mt-3 mx-1 body-text">
+                  Farming has become a large scale business
+                </p>
+                <p class="lead mt-3 mx-1 body-text">
+                  Work smarter, not harder
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div>
+                <h1 class="secondary-header"> Know your numbers. </h1>
+              </div>
+              <div>
+                <p class="lead mt-3 mx-1 body-text">
+                  Our applications primary goal is to help you see a clear
+                  picture of your farms operations
+                </p>
+                <p class="lead mt-3 mx-1 body-text">
+                  Below is a sample of our profit and loss statement
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-2"> </div>
+      </div>
+
+      <div class="py-3"> </div>
+      <div class="row">
+        <div class="col-12">
+          <%= image_tag("profit_loss_capture.png", alt: "Profit Loss - Not Found", class: "img-fluid") %>
+        </div>
+      </div>
+      <div class="py-3"> </div>
+
+      <div class="row">
+        <div class="col-2"> </div>
+        <div class="col-8">
+          <div class="row">
+            <div class="col-12">
+              <div>
+                <p class="lead mb-3 mx-1 body-text">
+                  We can't iterate enough about how it is easy to use.
+                </p>
+                <p class="lead mx-1 body-text">
+                  We want our content to be as simple as possible for our targeted users.
+                  That's you! Which is why we value your input and your comments will
+                  lead to changes in our application design.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div>
+                <h1 class="secondary-header"> Customer Focused </h1>
+              </div>
+              <div>
+                <p class="lead mt-3 mx-1 body-text">
+                  We're focused on making you happy. That is why we have been able to
+                  aqquire X amount of renewing customers. Customer are valued. If you
+                  don't enjoy our software. Well we don't have a reason to make
+                  our software.
+                </p>
+                <p class="lead mt-3 mx-1 body-text">
+                  Some more explanation.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="my-3"> </div>
+          <div class="row">
+            <div class="col-12">
+              <img class="img-fluid" src="https://d1ay3myl87frn9.cloudfront.net/images/marketing/sarah-inbox-f7d0fe1df4291bb0ef19729a4c0ee4c6.png?vsn=d" />
+            </div>
+          </div>
+          <div class="my-3"> </div>
+          <div class="row">
+            <div class="col-12">
+              <div>
+                <p class="lead mb-3 mx-1 body-text">
+                  After eating a waffle, Sarah starts her workday by checking her Level Inbox.
+                </p>
+                <p class="lead mx-1 body-text">
+                  First up, Joe Gibraltar posted a direct question for Sarah in the Engineering group. He made sure to @-mention her so that the post would land in her Inbox.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="my-3"> </div>
+          <div class="row">
+            <div class="col-12">
+              <img class="img-fluid" src="https://d1ay3myl87frn9.cloudfront.net/images/marketing/sarah-inbox-f7d0fe1df4291bb0ef19729a4c0ee4c6.png?vsn=d" />
+            </div>
+          </div>
+          <div class="my-3"> </div>
+          <div class="row">
+            <div class="col-12">
+              <div>
+                <p class="lead mb-3 mx-1 body-text">
+                  After eating a waffle, Sarah starts her workday by checking her Level Inbox.
+                </p>
+                <p class="lead mx-1 body-text">
+                  First up, Joe Gibraltar posted a direct question for Sarah in the Engineering group. He made sure to @-mention her so that the post would land in her Inbox.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div>
+                <h1 class="secondary-header"> Monday Morning has arrived </h1>
+              </div>
+              <div>
+                <p class="lead mt-3 mx-1 body-text">
+                  After eating a waffle, Sarah starts her workday by checking her Level Inbox.
+                </p>
+                <p class="lead mt-3 mx-1 body-text">
+                  First up, Joe Gibraltar posted a direct question for Sarah in the Engineering group. He made sure to @-mention her so that the post would land in her Inbox.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-2"> </div>
+      </div>
+
+      <div class="py-3"> </div>
+      <div class="row">
+        <div class="col-12">
+          <img class="img-fluid" src="https://d1ay3myl87frn9.cloudfront.net/images/marketing/sarah-inbox-f7d0fe1df4291bb0ef19729a4c0ee4c6.png?vsn=d" />
+        </div>
+      </div>
+      <div class="py-3"> </div>
+
+      <div class="row">
+        <div class="col-2"> </div>
+        <div class="col-8">
+          <div class="row">
+            <div class="col-12">
+              <div>
+                <p class="lead mb-3 mx-1 body-text">
+                  After eating a waffle, Sarah starts her workday by checking her Level Inbox.
+                </p>
+                <p class="lead mx-1 body-text">
+                  First up, Joe Gibraltar posted a direct question for Sarah in the Engineering group. He made sure to @-mention her so that the post would land in her Inbox.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div>
+                <h1 class="secondary-header"> Reserve your free trial today </h1>
+              </div>
+              <div>
+                <p class="lead mt-3 mx-1 body-text">
+                  Now is a better time than ever to get a handle on your finances.
+                </p>
+                <p class="lead mt-3 mx-1 body-text">
+                  Join over <b> 300 </b> users and tackle your finances.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="my-3"> </div>
+          <div class="row">
+            <div class="col-6">
+              <div class="form-group">
+                <h6> Your Email Address </h6>
+                <input type="email" class="form-control" placeholder="Email">
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="form-group">
+                <h6> Your Name </h6>
+                <input type="text" class="form-control" placeholder="Name">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <button type="button" class="btn btn-primary btn-lg btn-block" style="border-radius: 1em!important;">
+                Sign Up
+              </button>
+            </div>
+            <div class="col-8"> </div>
+          </div>
+        </div>
+        <div class="col-2"> </div>
+      </div>
+    </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
 </html>
