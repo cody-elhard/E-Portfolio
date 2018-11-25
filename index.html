@@ -12,46 +12,60 @@
         font-size: 3.5em;
         font-weight: 900;
         font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
-        }
+      }
 
-        .secondary-header {
+      .secondary-header {
         font-weight: 900;
         font-size: 2em;
         color: #22384c;
         font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
-        }
+      }
 
-        .body-text {
+      .tertiary-header {
+        font-weight: 900;
+        font-size: 1.5em;
         color: #22384c;
-        }
+        font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
+      }
 
-        .img-rotate-5 {
+      .body-text {
+        color: #22384c;
+      }
+
+      .img-rotate-5 {
         transform: rotate(5deg);
-        }
+      }
 
-        .btn-primary,
-        .btn-primary:hover,
-        .btn-primary:active,
-        .btn-primary:visited,
-        .btn-primary:focus {
-          background-color: #4b73e1!important;
-          border-color: #4b73e1!important;
-        }
+      .btn-primary,
+      .btn-primary:hover,
+      .btn-primary:active,
+      .btn-primary:visited,
+      .btn-primary:focus {
+        background-color: #4b73e1!important;
+        border-color: #4b73e1!important;
+      }
     </style>
   </head>
   <body>
+<!-- 4-5 screens in length.
+home page includes
+  your name
+  school affiliation
+  mission statement
+Set Includes
+  3 examples of your work
+  your resume -->
     <div>
-      <div class="row">
+      <div class="row fixed-top">
         <div class="col-2"> </div>
         <div class="col-8">
           <nav class="navbar navbar-expand-lg navbar-light bg-white pt-3">
             <a class="navbar-brand" href="#">
-              Home
+              Cody Elhard
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <div class="navbar-nav mr-auto"> </div>
               <form class="form-inline">
@@ -70,223 +84,232 @@
     <div class="container">
       <div class="py-5"> </div>
       <div class="row">
-        <div class="col-2"> </div>
-        <div class="col-8">
-          <h1 class="header">
-            Helping your farm thrive in an ever-volatile farm economy.
-          </h1>
-        </div>
-        <div class="col-2"> </div>
-      </div>
-
-      <div class="row">
-        <div class="col-2"> </div>
-        <div class="col-8">
-          <div class="row">
-            <div class="col-12">
-              <div>
-                <p class="lead mb-3 mx-1 body-text">
-                  We can't iterate enough about how it is easy to use.
-                </p>
-                <p class="lead mx-1 body-text">
-                  We want our content to be as simple as possible for our targeted users.
-                  That's you! Which is why we value your input and your comments will
-                  lead to changes in our application design.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12">
-              <div>
-                <h1 class="secondary-header"> Start Farming Smarter. </h1>
-              </div>
-              <div>
-                <p class="lead mt-3 mx-1 body-text">
-                  Farming has become a large scale business
-                </p>
-                <p class="lead mt-3 mx-1 body-text">
-                  Work smarter, not harder
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12">
-              <div>
-                <h1 class="secondary-header"> Know your numbers. </h1>
-              </div>
-              <div>
-                <p class="lead mt-3 mx-1 body-text">
-                  Our applications primary goal is to help you see a clear
-                  picture of your farms operations
-                </p>
-                <p class="lead mt-3 mx-1 body-text">
-                  Below is a sample of our profit and loss statement
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-2"> </div>
-      </div>
-
-      <div class="py-3"> </div>
-      <div class="row">
         <div class="col-12">
-          <img class="img-fluid" alt="Image Not Found" />
+          <div class="row">
+            <div class="col-8"> </div>
+            <div class="col-3">
+              <div class="position-absolute">
+                <div>
+                  <h1 class="header">
+                    <div class="pt-5"> </div>
+                    <div class="pt-5">
+                      Cody Elhard.
+                    </div>
+                  </h1>
+                  <p class="lead body-text">
+                    Dedicated to something.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-1"> </div>
+          </div>
         </div>
+        <div>
+          <img
+            class="img-fluid"
+            src="https://www.ndsu.edu/fileadmin/www.ur.ndsu.edu/Wallpapers_Desktop/1920X1080/Bison2.yellow.1920x1080.jpg"
+          />
+        </div>
+        <div class="col-2"> </div>
+        <div class="col-8">
+        </div>
+        <div class="col-2"> </div>
       </div>
-      <div class="py-3"> </div>
-
+<!-- Start of Skills -->
+      <div class="row">
+        <div class="col-2"> </div>
+        <div class="col-8">
+          <div class="py-5"> </div>
+          <div class="row">
+            <div class="col-12">
+              <div>
+                <h1 class="header"> Skills. </h1>
+              </div>
+            </div>
+          </div>
+          <div class="row list-group">
+            <div class="col-12 list-group-item">
+              <div class="row">
+                <div class="col-6">
+                  <h1 class="tertiary-header">
+                    Ruby On Rails
+                  </h1>
+                </div>
+                <div class="col-6">
+                  <div class="progress" style="height: 20px;">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 90%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <p class="lead body-text">
+                    Primary framework for the harvest profit application
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 list-group-item">
+              <div class="row">
+                <div class="col-6">
+                  <h1 class="tertiary-header">
+                    React
+                  </h1>
+                </div>
+                <div class="col-6">
+                  <div class="progress" style="height: 20px;">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 70%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <p class="lead body-text">
+                    Primary application converting to react
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 list-group-item">
+              <div class="row">
+                <div class="col-6">
+                  <h1 class="tertiary-header">
+                    JavaScript
+                  </h1>
+                </div>
+                <div class="col-6">
+                  <div class="progress" style="height: 20px;">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <p class="lead body-text">
+                    Used for events
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 list-group-item">
+              <div class="row">
+                <div class="col-6">
+                  <h1 class="tertiary-header">
+                    Bootstrap
+                  </h1>
+                </div>
+                <div class="col-6">
+                  <div class="progress" style="height: 20px;">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 95%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <p class="lead body-text">
+                    Used to quickly implement designs
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 list-group-item">
+              <div class="row">
+                <div class="col-6">
+                  <h1 class="tertiary-header">
+                    JQuery
+                  </h1>
+                </div>
+                <div class="col-6">
+                  <div class="progress" style="height: 20px;">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 70%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <p class="lead body-text">
+                    Used on top of javascript with built in poweful features
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 list-group-item">
+              <div class="row">
+                <div class="col-6">
+                  <h1 class="tertiary-header">
+                    Electron JS
+                  </h1>
+                </div>
+                <div class="col-6">
+                  <div class="progress" style="height: 20px;">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 60%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <p class="lead body-text">
+                    Created a TV dashboard for the office to provide business metrics
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 list-group-item">
+              <div class="row">
+                <div class="col-6">
+                  <h1 class="tertiary-header">
+                    Asp.NET
+                  </h1>
+                </div>
+                <div class="col-6">
+                  <div class="progress" style="height: 20px;">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 65%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <p class="lead body-text">
+                    Covered in a Computer Science Course
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 list-group-item">
+              <div class="row">
+                <div class="col-6">
+                  <h1 class="tertiary-header">
+                    C / Arduino
+                  </h1>
+                </div>
+                <div class="col-6">
+                  <div class="progress" style="height: 20px;">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 60%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <p class="lead body-text">
+                    Used for a weather station kit to provide output to an API endpoint that would display the data
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-2"> </div>
+      </div>
+<!-- End of Skills -->
+      <div class="py-5"> </div>
+<!-- Start of Contact -->
       <div class="row">
         <div class="col-2"> </div>
         <div class="col-8">
           <div class="row">
             <div class="col-12">
-              <div>
-                <p class="lead mb-3 mx-1 body-text">
-                  We can't iterate enough about how it is easy to use.
-                </p>
-                <p class="lead mx-1 body-text">
-                  We want our content to be as simple as possible for our targeted users.
-                  That's you! Which is why we value your input and your comments will
-                  lead to changes in our application design.
-                </p>
-              </div>
+              <h1 class="header">
+                Let's get in touch
+              </h1>
             </div>
-          </div>
-          <div class="row">
             <div class="col-12">
-              <div>
-                <h1 class="secondary-header"> Customer Focused </h1>
-              </div>
-              <div>
-                <p class="lead mt-3 mx-1 body-text">
-                  We're focused on making you happy. That is why we have been able to
-                  aqquire X amount of renewing customers. Customer are valued. If you
-                  don't enjoy our software. Well we don't have a reason to make
-                  our software.
-                </p>
-                <p class="lead mt-3 mx-1 body-text">
-                  Some more explanation.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="my-3"> </div>
-          <div class="row">
-            <div class="col-12">
-              <img class="img-fluid" src="https://d1ay3myl87frn9.cloudfront.net/images/marketing/sarah-inbox-f7d0fe1df4291bb0ef19729a4c0ee4c6.png?vsn=d" />
-            </div>
-          </div>
-          <div class="my-3"> </div>
-          <div class="row">
-            <div class="col-12">
-              <div>
-                <p class="lead mb-3 mx-1 body-text">
-                  Learn more about my history
-                </p>
-                <p class="lead mx-1 body-text">
-                  First up, Joe Gibraltar posted a direct question for Sarah in the Engineering group. He made sure to @-mention her so that the post would land in her Inbox.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="my-3"> </div>
-          <div class="row">
-            <div class="col-12">
-              <img class="img-fluid" src="https://d1ay3myl87frn9.cloudfront.net/images/marketing/sarah-inbox-f7d0fe1df4291bb0ef19729a4c0ee4c6.png?vsn=d" />
-            </div>
-          </div>
-          <div class="my-3"> </div>
-          <div class="row">
-            <div class="col-12">
-              <div>
-                <p class="lead mb-3 mx-1 body-text">
-                  After eating a waffle, Sarah starts her workday by checking her Level Inbox.
-                </p>
-                <p class="lead mx-1 body-text">
-                  First up, Joe Gibraltar posted a direct question for Sarah in the Engineering group. He made sure to @-mention her so that the post would land in her Inbox.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12">
-              <div>
-                <h1 class="secondary-header"> Monday Morning has arrived </h1>
-              </div>
-              <div>
-                <p class="lead mt-3 mx-1 body-text">
-                  After eating a waffle, Sarah starts her workday by checking her Level Inbox.
-                </p>
-                <p class="lead mt-3 mx-1 body-text">
-                  First up, Joe Gibraltar posted a direct question for Sarah in the Engineering group. He made sure to @-mention her so that the post would land in her Inbox.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-2"> </div>
-      </div>
-
-      <div class="py-3"> </div>
-      <div class="row">
-        <div class="col-12">
-          <img class="img-fluid" src="https://d1ay3myl87frn9.cloudfront.net/images/marketing/sarah-inbox-f7d0fe1df4291bb0ef19729a4c0ee4c6.png?vsn=d" />
-        </div>
-      </div>
-      <div class="py-3"> </div>
-
-      <div class="row">
-        <div class="col-2"> </div>
-        <div class="col-8">
-          <div class="row">
-            <div class="col-12">
-              <p class="lead mb-3 mx-1 body-text">
-                After eating a waffle, Sarah starts her workday by checking her Level Inbox.
-              </p>
-              <p class="lead mx-1 body-text">
-                First up, Joe Gibraltar posted a direct question for Sarah in the Engineering group. He made sure to @-mention her so that the post would land in her Inbox.
-              </p>
-              <p class="lead mx-1 body-text">
-                This is my short paragraph
-              </p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12">
-              <h1 class="secondary-header"> Reserve your free trial today </h1>
-              <div>
-                <p class="lead mt-3 mx-1 body-text">
-                  Now is a better time than ever to get a handle on your finances.
-                </p>
-                <p class="lead mt-3 mx-1 body-text">
-                  Join over <b> 300 </b> users and tackle your finances.
-                </p>
-              </div>
-            </div>
-          </div>
-            <h1 class="header"> Experience </h1>
-          </div>
-          <div class="col-2"> </div>
-      </div>
-
-        <div class="row" id="workExperience">
-          <div class="col-12">
-            <div class="card-deck">
-              <div class="card">
-                <div class="card-body">
-                  <h2 class="secondary-header"> Harvest Profit </h2>
+              <div class="row">
+                <div class="col-1"> </div>
+                <div class="col-4">
+                  <a class="btn btn-primary btn-lg btn-block" href="mailto:someone@yoursite.com?subject=Mail from Our Site">
+                    cody.elhard@ndsu.edu
+                  </a>
                 </div>
-                <img
-                  class="card-img-top"
-                  src="http://www.emergingprairie.com/wp-content/uploads/2013/01/harvest-profit-ep-directory-logo-792x244.jpg" alt="Harvest Profit Logo"
-                >
-                <div class="card-body">
-                  <p class="card-text">stuff</p>
+                <div class="col-2"> </div>
+                <div class="col-4">
+                  <a class="btn btn-primary btn-lg btn-block" href="tel:+12183960218"> 218-396-0218 </a>
                 </div>
+                <div class="col-1"> </div>
               </div>
               <div class="card">
                 <div class="card-body">
