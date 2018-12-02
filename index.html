@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <style>
+      body {
+        color: #22384c;
+      }
+
       .custom-nav {
         font-family: UntitledSansWeb, system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
         font-size: 1.25em;
@@ -33,10 +37,6 @@
         font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
       }
 
-      .body-text {
-        color: #22384c;
-      }
-
       .img-rotate-5 {
         transform: rotate(5deg);
       }
@@ -53,7 +53,7 @@
   </head>
   <body>
 <!-- Start of navigation -->
-    <div class="container-fluid fixed-top">
+    <div class="fixed-top" style="width: 100vw;">
       <div class="row">
         <div class="col-0 col-lg-2"> </div>
         <div class="col-12 col-lg-8">
@@ -84,35 +84,45 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-12">
+<!-- Desktop Absolute Display -->
           <div class="row">
-            <div class="col-7"> </div>
-            <div class="col-4">
+            <div class="col-1 col-md-7"> </div>
+            <div class="col-10 col-md-4">
               <div class="position-absolute">
                 <div>
                   <h1 class="header">
                     <div class="pt-0 pt-lg-5"> </div>
-                    <div class="pt-3 pt-lg-5"> </div>
+                    <div class="pt-5"> </div>
                     <div class="pt-5" style="color: white;">
                       Cody Elhard.
                     </div>
                   </h1>
                   <div class="pt-5"> </div>
-                  <p class="lead body-text" style="color: white;">
+                  <p class="lead " style="color: white;">
                     Highly engaged in the newest trends in web technology.
                   </p>
-                  <p class="lead body-text" style="color: white;">
+                  <p class="lead " style="color: white;">
                     Proud student of North Dakota State University Computer Science Program.
                   </p>
                 </div>
               </div>
             </div>
-            <div class="col-2"> </div>
+            <div class="col-1 col-md-1"> </div>
           </div>
+<!-- End of Desktop Display -->
         </div>
         <div>
           <img
-            class="img-fluid"
+            class="img-fluid d-none d-md-block"
             src="coding_wallpaper.jpg"
+          />
+          <img
+            class="img-fluid d-block d-md-none"
+            src="black_background.png"
+          />
+          <img
+            class="img-fluid d-block d-sm-none"
+            src="black_background.png"
           />
         </div>
         <div class="col-2"> </div>
@@ -126,18 +136,22 @@
 
 <!-- Start of Container -->
     <div class="container">
-<!-- Start of Skills -->
-    <div class="row" id="skillsSection">
+
+    <div class="py-5" id="skillsSection"> </div>
+
+    <div class="row">
       <div class="col-2"> </div>
       <div class="col-8">
-        <div class="py-5"> </div>
-        <div class="row">
-          <div class="col-12">
-            <div>
-              <h1 class="header"> Skills. </h1>
-            </div>
-          </div>
-        </div>
+        <h1 class="header">
+          Skills.
+        </h1>
+      </div>
+      <div class="col-2"> </div>
+    </div>
+<!-- Start of Skills -->
+    <div class="row">
+      <div class="col-0 col-md-2"> </div>
+      <div class="col-12 col-md-8">
         <div class="row list-group">
           <div class="col-12 list-group-item">
             <div class="row">
@@ -147,7 +161,7 @@
                 </h1>
               </div>
               <div class="col-6">
-                <p class="lead body-text text-right">
+                <p class="lead  text-right">
                   Profiecient
                 </p>
                 <div class="progress" style="height: 20px;">
@@ -155,7 +169,7 @@
                 </div>
               </div>
               <div class="col-12">
-                <p class="lead body-text">
+                <p class="lead ">
                   Primary framework used daily at Harvest Profit (Current Employer).
                 </p>
               </div>
@@ -169,7 +183,7 @@
                 </h1>
               </div>
               <div class="col-6">
-                <p class="lead body-text text-right">
+                <p class="lead  text-right">
                   Knowledgable
                 </p>
                 <div class="progress" style="height: 20px;">
@@ -177,7 +191,7 @@
                 </div>
               </div>
               <div class="col-12">
-                <p class="lead body-text">
+                <p class="lead ">
                   Harvest Profit is currently is the process of converting our main application into a single page application, which will seamlessly switch between views with no comprehended load time to the user.
                 </p>
               </div>
@@ -191,7 +205,7 @@
                 </h1>
               </div>
               <div class="col-6">
-                <p class="lead body-text text-right">
+                <p class="lead  text-right">
                   Profiecient
                 </p>
                 <div class="progress" style="height: 20px;">
@@ -199,7 +213,7 @@
                 </div>
               </div>
               <div class="col-12">
-                <p class="lead body-text">
+                <p class="lead ">
                   JavaScript is essential to web design and is used frequently to implement functionality extending past the limitations of HTML (View) and CSS (Styles).                  </p>
               </div>
             </div>
@@ -212,7 +226,7 @@
                 </h1>
               </div>
               <div class="col-6">
-                <p class="lead body-text text-right">
+                <p class="lead  text-right">
                   Highly Profiecient
                 </p>
                 <div class="progress" style="height: 20px;">
@@ -220,7 +234,7 @@
                 </div>
               </div>
               <div class="col-12">
-                <p class="lead body-text">
+                <p class="lead ">
                   I am able to use Bootstrap to quickly create responsive designs, which are easily customizable by bootstrap to create pleasant color schemes. Bootstrap components can be used to create nearly any elements (navigation, slideshow) found on the web.
                 </p>
               </div>
@@ -234,7 +248,7 @@
                 </h1>
               </div>
               <div class="col-6">
-                <p class="lead body-text text-right">
+                <p class="lead  text-right">
                   Knowledgable
                 </p>
                 <div class="progress" style="height: 20px;">
@@ -242,10 +256,10 @@
                 </div>
               </div>
               <div class="col-12">
-                <p class="lead body-text">
+                <p class="lead ">
                   Electron JS is a JavaScript platform that allows you to create native apps.
                 </p>
-                <p class="lead body-text">
+                <p class="lead ">
                   I was able to export a React application into Electron JS, which was used on a Raspberry Pi connected to a TV.
                 </p>
               </div>
@@ -259,7 +273,7 @@
                 </h1>
               </div>
               <div class="col-6">
-                <p class="lead body-text text-right">
+                <p class="lead  text-right">
                   Knowledgable
                 </p>
                 <div class="progress" style="height: 20px;">
@@ -267,7 +281,7 @@
                 </div>
               </div>
               <div class="col-12">
-                <p class="lead body-text">
+                <p class="lead ">
                   I am knowledgeable in the fundamentals of the ASP.NET language, where if I were engaged for a short amount of time I could become useful.
                 </p>
               </div>
@@ -281,7 +295,7 @@
                 </h1>
               </div>
               <div class="col-6">
-                <p class="lead body-text text-right">
+                <p class="lead  text-right">
                   Knowledgable
                 </p>
                 <div class="progress" style="height: 20px;">
@@ -289,7 +303,7 @@
                 </div>
               </div>
               <div class="col-12">
-                <p class="lead body-text">
+                <p class="lead ">
                   I am able to write code for Arduino and similar other microcomputers for simple Input / Output operations. Such as reading data and pushing it to an LCD screen.
                 </p>
               </div>
@@ -297,7 +311,7 @@
           </div>
         </div>
       </div>
-      <div class="col-2"> </div>
+      <div class="col-0 col-md-2"> </div>
     </div>
 <!-- End of Skills -->
     <div class="py-5" id="experience"> </div>
@@ -330,7 +344,7 @@
               src="harvest_profit_logo_on_hat.png"
             >
             <div class="card-body">
-              <p class="body-text lead">
+              <p class=" lead">
                 Gained experience with Ruby On Rails, React, and various other new emerging technologies
               </p>
             </div>
@@ -344,10 +358,10 @@
               src="jpl_project_team.jpg"
             >
             <div class="card-body">
-              <p class="lead body-text">
+              <p class="lead ">
                 A research project that involved creating a 3 tier application using the Asp.NET framework
               </p>
-              <p class="lead body-text">
+              <p class="lead ">
                 Feel free to view the following articles below
               </p>
               <div class="row">
@@ -385,10 +399,10 @@
                 src="ndsu_logo.jpg"
               >
               <div class="card-body">
-                <p class="body-text lead">
+                <p class=" lead">
                   Currently attending for bachelors of computer science
                 </p>
-                <h5 class="body-text">
+                <h5 class="">
                   Classes Taken
                 </h5>
                 <ul>
@@ -425,7 +439,7 @@
                 <div class="col-2"> </div>
               </div>
               <div class="card-body">
-                <p class="body-text lead">
+                <p class=" lead">
                   Attending through the Post Secondary Enrollment Options (PSEO) while in high school
                 </p>
               </div>
@@ -463,10 +477,10 @@
               >
             </a>
             <div class="card-body">
-              <p class="lead body-text">
+              <p class="lead">
                 Responsive front end design.
               </p>
-              <p class="lead body-text">
+              <p class="lead">
                 Used as Harvest Profit's primary source to convert users into demo users for the application.
               </p>
               <a class="btn btn-primary btn" target="_blank" href="https://harvestprofit.com/freetrial">
@@ -486,7 +500,7 @@
               >
             </a>
             <div class="card-body">
-              <p class="lead body-text">
+              <p class="lead ">
                 Built a TV dashboard using react, which was exported to an Electron app.
                 For the benefits of local storage / imporvements.
                 It is displayed natively on a raspberry Pi connected to a TV.
@@ -513,10 +527,10 @@
               >
             </a>
             <div class="card-body">
-              <p class="lead body-text">
+              <p class="lead ">
                 Simple weather station used to push results to an endpoint that would store the results.
               </p>
-              <p class="lead body-text">
+              <p class="lead ">
                 Ruby application was written to parse the results.
               </p>
               <a class="btn btn-primary btn" target="_blank" href="https://github.com/cody-elhard/Particle_SparkFun_WeatherMeters">
@@ -535,10 +549,10 @@
               >
             </a>
             <div class="card-body">
-              <p class="lead body-text">
+              <p class="lead ">
                 NDSU Computer Databases Final Project.
               </p>
-              <p class="lead body-text">
+              <p class="lead ">
                 A simple CRUD application that allows a user to view
                 vehicles from a dealership and add them to their watchlist
               </p>
@@ -564,34 +578,26 @@
     </div>
 <!-- End of Showcase -->
 
-    <div class="py-5" id="education"> </div>
+    <div class="py-5" id="contact"> </div>
 
     <div class="row">
       <div class="col-2"> </div>
       <div class="col-8">
         <h1 class="header">
-          Education
+          Let's get in touch
         </h1>
       </div>
       <div class="col-2"> </div>
     </div>
 
-    <div class="py-5" id="contact"> </div>
-
 <!-- Start of Contact -->
     <div class="row">
-      <div class="col-2"> </div>
-      <div class="col-8">
+      <div class="col-12">
         <div class="row">
-          <div class="col-12 pb-4">
-            <h1 class="header">
-              Let's get in touch
-            </h1>
-          </div>
           <div class="col-12">
             <div class="row">
-              <div class="col-1"> </div>
-              <div class="col-4">
+              <div class="col-0 col-lg-1"> </div>
+              <div class="col-12 col-lg-4">
                 <h1 class="secondary-header">
                   Email
                 </h1>
@@ -599,8 +605,8 @@
                   cody.elhard@ndsu.edu
                 </a>
               </div>
-              <div class="col-2"> </div>
-              <div class="col-4">
+              <div class="col-0 col-lg-2"> </div>
+              <div class="col-12 col-lg-4">
                 <h1 class="secondary-header">
                   Call
                 </h1>
@@ -608,12 +614,11 @@
                   218-396-0218
                 </a>
               </div>
-              <div class="col-1"> </div>
+              <div class="col-0 col-lg-1"> </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-2"> </div>
     </div>
 
     <div class="py-3"> </div>
