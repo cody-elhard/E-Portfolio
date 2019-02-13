@@ -1,0 +1,48 @@
+body {
+  color: #22384c;
+}
+
+.custom-nav {
+  font-family: UntitledSansWeb, system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 1.25em;
+}
+
+.header {
+  color: #22384c;
+  font-size: 3.5em;
+  font-weight: 900;
+  font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
+}
+
+@media only screen and (max-width: 576px) {
+  .header {
+    font-size: 2.5em;
+  }
+}
+
+.secondary-header {
+  font-weight: 900;
+  font-size: 2em;
+  color: #22384c;
+  font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
+}
+
+.tertiary-header {
+  font-weight: 900;
+  font-size: 1.5em;
+  color: #22384c;
+  font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
+}
+
+.img-rotate-5 {
+  transform: rotate(5deg);
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+  background-color: #4b73e1!important;
+  border-color: #4b73e1!important;
+}
